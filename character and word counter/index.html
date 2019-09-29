@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap">
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+        font-family: 'Josefin Sans',sans-serif;
+
+    }
+
+    div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    textarea{
+        border: 2px solid #0984e3;
+        border-radius: 10px;
+        outline: none;
+        font-size: 1.2rem;
+        padding: 10px 2px;
+        box-shadow: 0 0 4px 1px #b2bec3;
+    }
+    button{
+        padding: 20px 30px;
+        background-color: #74b9ff;
+        color: white;
+        border-radius: 10px;
+        border: 2px solid #0984e3;
+        font-size: 1.2rem;
+        outline: none;
+    }
+    p{
+        color: #0984e3;
+        font-size: 1.2rem;
+    }
+    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <textarea id="words" cols="50" rows="10"></textarea>
+        <br>
+        <p id="showdata"></p>
+        <p id="showwordscount"></p>
+        <br>
+        <button   onclick="countwords()">Count Char</button>
+        
+    </div>
+    <script type="text/javascript" src="script.js">
+           
+            </script>
+</body>
+</html>
